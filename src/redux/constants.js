@@ -1,0 +1,4 @@
+export const SET_SMURF_NAME = 'SET_SMURF_NAME';
+export const TEST_PUT_FUNCTION = 'TEST_PUT_FUNCTION';
+export const FETCH_SMURF_DATA = 'FETCH_SMURF_DATA';
+export const SAVE_SMURF_DATA = 'SAVE_SMURF_DATA';

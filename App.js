@@ -10,6 +10,7 @@ import Account from './src/screens/Account';
 import Home from './src/screens/Home';
 import {Provider} from 'react-redux';
 import store from './src/redux/store';
+import LottieAnimations from './src/screens/LottieAnimations';
 
 const App = () => {
   const Stack = createStackNavigator();
@@ -17,6 +18,7 @@ const App = () => {
     <Provider store={store}>
     <NavigationContainer >
        <Stack.Navigator>
+          <Stack.Screen name='LottieAnimations' component={LottieAnimations}/>
           <Stack.Screen name='Phone Number' component={PhoneScreen}/>
           <Stack.Screen name='OTP Screen' component={OTPScreen}/>
           <Stack.Screen name='successScreen' component={SuccessScreen} options={{title : ''}}/>

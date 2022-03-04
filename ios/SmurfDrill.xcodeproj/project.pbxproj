@@ -17,6 +17,7 @@
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		2DCD954D1E0B4F2C00145EB5 /* SmurfDrillTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* SmurfDrillTests.m */; };
 		4719E33BDD40FA24DA54B682 /* libPods-SmurfDrill-SmurfDrillTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 100291A2079AB572F839B380 /* libPods-SmurfDrill-SmurfDrillTests.a */; };
+		6EEA6AB527D1FDF90012A199 /* AppCenter-Config.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6EEA6AB427D1FDF90012A199 /* AppCenter-Config.plist */; };
 		71821153259A33A700EAF671 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 71821152259A33A600EAF671 /* GoogleService-Info.plist */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
@@ -55,6 +56,7 @@
 		4B626F861EDD36FECF869B45 /* libPods-SmurfDrill.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SmurfDrill.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		608FCE15D2FA78A45B61FD3A /* Pods-SmurfDrill.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmurfDrill.release.xcconfig"; path = "Target Support Files/Pods-SmurfDrill/Pods-SmurfDrill.release.xcconfig"; sourceTree = "<group>"; };
 		6883283A859C2871BC64FBDB /* Pods-SmurfDrill-SmurfDrillTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmurfDrill-SmurfDrillTests.debug.xcconfig"; path = "Target Support Files/Pods-SmurfDrill-SmurfDrillTests/Pods-SmurfDrill-SmurfDrillTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6EEA6AB427D1FDF90012A199 /* AppCenter-Config.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "AppCenter-Config.plist"; sourceTree = "<group>"; };
 		703A7EF61EC9AD2A1FEFEBED /* Pods-SmurfDrill.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmurfDrill.debug.xcconfig"; path = "Target Support Files/Pods-SmurfDrill/Pods-SmurfDrill.debug.xcconfig"; sourceTree = "<group>"; };
 		71821152259A33A600EAF671 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = SmurfDrill/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -149,6 +151,7 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+				6EEA6AB427D1FDF90012A199 /* AppCenter-Config.plist */,
 				71821152259A33A600EAF671 /* GoogleService-Info.plist */,
 				13B07FAE1A68108700A75B9A /* SmurfDrill */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
@@ -328,6 +331,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
+				6EEA6AB527D1FDF90012A199 /* AppCenter-Config.plist in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				71821153259A33A700EAF671 /* GoogleService-Info.plist in Resources */,
 			);
